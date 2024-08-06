@@ -1,0 +1,229 @@
+[
+  {
+    "city": "Colombo",
+    "areas": [
+      "Colombo 1 (Fort)",
+      "Colombo 2 (Slave Island)",
+      "Colombo 3 (Kollupitiya)",
+      "Colombo 4 (Bambalapitiya)",
+      "Colombo 5 (Havelock Town)",
+      "Colombo 6 (Wellawatte)",
+      "Colombo 7 (Cinnamon Gardens)",
+      "Colombo 8 (Borella)",
+      "Colombo 9 (Dematagoda)",
+      "Colombo 10 (Maradana)",
+      "Colombo 11 (Pettah)",
+      "Colombo 12 (Hulftsdorp)",
+      "Colombo 13 (Kotahena)",
+      "Colombo 14 (Grandpass)",
+      "Colombo 15 (Mutwal)"
+    ]
+  },
+  {
+    "city": "Kandy",
+    "areas": [
+      "Ampitiya",
+      "Katugastota",
+      "Peradeniya",
+      "Gatambe",
+      "Kundasale",
+      "Pilimathalawa"
+    ]
+  },
+  {
+    "city": "Galle",
+    "areas": [
+      "Unawatuna",
+      "Hikkaduwa",
+      "Weligama",
+      "Ahangama",
+      "Koggala",
+      "Baddegama"
+    ]
+  },
+  {
+    "city": "Jaffna",
+    "areas": [
+      "Nallur",
+      "Chundikuli",
+      "Chankanai",
+      "Chavakachcheri",
+      "Vaddukoddai",
+      "Point Pedro",
+      "Karainagar"
+    ]
+  },
+  {
+    "city": "Matara",
+    "areas": [
+      "Akurugoda",
+      "Walgama",
+      "Kamburugamuwa",
+      "Dikwella",
+      "Weligama",
+      "Mirissa"
+    ]
+  },
+  {
+    "city": "Gampaha",
+    "areas": [
+      "Ja-Ela",
+      "Wattala",
+      "Kelaniya",
+      "Ragama",
+      "Minuwangoda",
+      "Negombo",
+      "Veyangoda",
+      "Divulapitiya"
+    ]
+  },
+  {
+    "city": "Anuradhapura",
+    "areas": [
+      "New Town",
+      "Old Town",
+      "Kekirawa",
+      "Mihintale",
+      "Thalawa",
+      "Eppawala"
+    ]
+  },
+  {
+    "city": "Ratnapura",
+    "areas": [
+      "Eheliyagoda",
+      "Kuruwita",
+      "Balangoda",
+      "Pelmadulla",
+      "Embilipitiya",
+      "Godakawela"
+    ]
+  },
+  {
+    "city": "Badulla",
+    "areas": [
+      "Bandarawela",
+      "Welimada",
+      "Hali-Ela",
+      "Haputale",
+      "Ella",
+      "Mahiyanganaya"
+    ]
+  },
+  {
+    "city": "Kurunegala",
+    "areas": [
+      "Polgahawela",
+      "Mawathagama",
+      "Kuliyapitiya",
+      "Wariyapola",
+      "Pannala",
+      "Narammala"
+    ]
+  },
+  {
+    "city": "Matale",
+    "areas": ["Dambulla", "Sigiriya", "Ukuwela", "Rattota", "Galewela"]
+  },
+  {
+    "city": "Batticaloa",
+    "areas": [
+      "Eravur",
+      "Valachchenai",
+      "Kattankudy",
+      "Kaluwanchikudy",
+      "Oddamavadi"
+    ]
+  },
+  {
+    "city": "Trincomalee",
+    "areas": ["Kinniya", "Kuchchaveli", "Mutur", "Nilaveli", "China Bay"]
+  },
+  {
+    "city": "Nuwara Eliya",
+    "areas": [
+      "Hatton",
+      "Talawakele",
+      "Ginigathena",
+      "Ramboda",
+      "Nanu Oya",
+      "Kotagala"
+    ]
+  },
+  {
+    "city": "Hambantota",
+    "areas": [
+      "Tangalle",
+      "Tissamaharama",
+      "Ambalantota",
+      "Beliatta",
+      "Kataragama"
+    ]
+  },
+  {
+    "city": "Puttalam",
+    "areas": [
+      "Chilaw",
+      "Wennappuwa",
+      "Dankotuwa",
+      "Nattandiya",
+      "Marawila",
+      "Puttalam city"
+    ]
+  },
+  {
+    "city": "Monaragala",
+    "areas": ["Wellawaya", "Bibile", "Medagama", "Siyambalanduwa"]
+  },
+  {
+    "city": "Kilinochchi",
+    "areas": ["Paranthan", "Kandawalai", "Karachchi", "Poonakary"]
+  },
+  {
+    "city": "Mannar",
+    "areas": ["Pesalai", "Murunkan", "Madhu", "Thiruketheeswaram"]
+  },
+  {
+    "city": "Mullaitivu",
+    "areas": ["Puthukudiyiruppu", "Oddusuddan", "Welioya", "Nayaru"]
+  },
+  {
+    "city": "Vavuniya",
+    "areas": [
+      "Vavuniya South",
+      "Vavuniya North",
+      "Venkalachedikulam",
+      "Nedunkeni"
+    ]
+  },
+  {
+    "city": "Polonnaruwa",
+    "areas": [
+      "Kaduruwela",
+      "Hingurakgoda",
+      "Medirigiriya",
+      "Giritale",
+      "Welikanda"
+    ]
+  },
+  {
+    "city": "Ampara",
+    "areas": [
+      "Kalmunai",
+      "Sammanthurai",
+      "Akkaraipattu",
+      "Dehiattakandiya",
+      "Uhana"
+    ]
+  },
+  {
+    "city": "Kegalle",
+    "areas": [
+      "Mawanella",
+      "Rambukkana",
+      "Warakapola",
+      "Kegalle",
+      "Yatiyanthota"
+    ]
+  }
+]

@@ -19,9 +19,9 @@ router.get("/", getLocations);
 router.get("/find/:id", getLocationById);
 
 // update location
-router.put("/", verifyAdmin, updateLocation);
+router.put("/:id", verifyAdmin, updateLocation);
 
 // delete location
-router.delete("/", verifyAdmin, deleteLocation);
+router.delete("/:id", verifyAdmin, deleteLocation);
 
 export default router;
