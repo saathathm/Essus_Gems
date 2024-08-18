@@ -40,6 +40,10 @@ export const updateUser = async (req, res, next) => {
       req.body.password = bcrypt.hashSync(req.body.password, salt);
     }
 
+    if (req.body.area) {
+      req.body.location = { city: req.body.city, area: req.body.area };
+    }
+
     const updatedUser = await User.findByIdAndUpdate(
       userId,
       { $set: req.body },

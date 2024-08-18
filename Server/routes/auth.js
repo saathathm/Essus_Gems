@@ -21,8 +21,13 @@ const upload = multer({
   }),
 });
 
+// register new account
 router.post("/register", upload.single("avatar"), register);
 
+// login account
 router.post("/login", login);
+
+// logout account
+router.post("/logout", )
 
 export default router;

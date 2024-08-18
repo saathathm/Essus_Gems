@@ -32,8 +32,8 @@ router.put("/:id", verifyUser, upload.single("avatar"), updateUser);
 // Delete User
 router.delete("/:id", verifyUser, deleteUser);
 // Get All Users
-router.get("/", verifyAdmin, getAll);
+router.get("/", getAll);
 // Get By Id
-router.get("/find/:id", verifyUser, getById);
+router.get("/find/:id", getById);
 
 export default router;

@@ -23,7 +23,8 @@ export const createGem = async (req, res, next) => {
 
     req.body.medias = medias;
     req.body.addedBy = req.user.id;
-    const gem = await Gem.create(req.body);
+    const { city, area, ...otherDatas } = req.body;
+    const gem = await Gem.create({ location: { city, area }, ...otherDatas });
     res.status(201).json({
       success: true,
       gem,
@@ -65,6 +66,9 @@ export const updateGem = async (req, res, next) => {
         let url = `${BASE_URL}/uploads/product/${file.filename}`;
         medias.push({ media: url });
       });
+    }
+    if (req.body.area) {
+      req.body.location = { city: req.body.city, area: req.body.area };
     }
 
     // Update gem details

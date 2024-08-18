@@ -18,7 +18,7 @@ export const register = async (req, res, next) => {
       name: req.body.name,
       phoneNumber: req.body.phoneNumber,
       email: req.body.email,
-      location: {city: req.body.city, area: req.body.area},
+      location: { city: req.body.city, area: req.body.area },
       password: hash,
       avatar,
     });
@@ -56,6 +56,20 @@ export const login = async (req, res, next) => {
       .cookie("access_token", token, { httpOnly: true })
       .status(200)
       .json({ status: 200, ...others });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const logout = (req, res, next) => {
+  try {
+    res
+      .cookie("access_token", null, {
+        expires: new Date(Date.now()),
+        httpOnly: true,
+      })
+      .status(200)
+      .json("Logged out success!");
   } catch (error) {
     next(error);
   }
