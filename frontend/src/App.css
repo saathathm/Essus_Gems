@@ -1,186 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none !important;
-  border: none;
-  outline: none;
-  scroll-behavior: smooth;
-  list-style: none;
-}
-
-:root {
-  --bg-color: #fff;
-  --snd-bg-color: #dfdfdf;
-  --text-color: #000000;
-  --border-color: #b3b3b3;
-  --hover-border-color: #d7cfcf;
-}
-
-body {
-  min-width: 443px;
-  height: 100%;
-  /* background-color: var(--snd-bg-color) !important; */
-}
-
-header {
-  background-color: var(--bg-color);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-.logo {
-  color: var(--text-color);
-}
-
-.search-box form {
-  position: relative;
-  width: 100%;
-  height: 35px;
-  display: flex;
-}
-
-.search-box form input {
-  width: 100%;
-  padding: 4px 10px 7px 10px;
-  outline: none;
-  border: 1.5px solid var(--border-color);
-  border-radius: 40px;
-  background: transparent;
-  color: var(--text-color);
-}
-
-.search-box form input:hover {
-  border-color: var(--hover-border-color);
-}
-
-.search-box form input::placeholder {
-  color: var(--text-color);
-}
-
-.search-box form button i {
-  position: absolute;
-  right: 15px;
-  top: 9px;
-  color: var(--text-color);
-}
-
-.btnNav {
-  background-color: transparent;
-  color: var(--text-color) !important;
-  border-color: var(--border-color) !important;
-}
-
-.container-fluid .row div div .btnNav {
-  border-radius: 20px !important;
-  padding: 5px 15px !important;
-}
-
-.btnNav:hover {
-  background-color: var(--snd-bg-color) !important;
-  color: var(--text-color) !important;
-  border-color: var(--hover-border-color) !important;
-}
-
-.background-container {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 8, 8, 0.5)),
-    url("./images/banner5.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh; /* Ensures that the background covers at least the entire viewport */
-}
-
-.homeCard {
-  width: 13.3rem;
-  background: rgba(255, 255, 255, 0.4);
-  backdrop-filter: blur(3px);
-  margin: 20px 10px 0 10px;
-  transition: ease 0.1s;
-}
-
-.card-header {
-  background-color: rgba(255, 255, 255, 0);
-  font-weight: 700;
-  color: var(--text-color);
-  border: none;
-  outline: none;
-  padding: 0px;
-}
-
-.homeCard img {
-  width: 100%;
-  height: 120px;
-  object-position: center;
-  object-fit: contain;
-  border-radius: 20px;
-  transition: ease 0.5s;
-}
-
-.homeCard:hover > img {
-  transform: translateY(-5px);
-  transition: ease 0.5s;
-}
-
-.homeCard:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  transition: ease 0.1s;
-}
-
-@media (max-width: 768px) {
-  .homeCard {
-    width: 139px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    list-style: none;
   }
-}
-
-@media (max-width: 576px) {
+  
+  :root {
+    --bg-color: #fff;
+    --snd-bg-color: #dfdfdf;
+    --text-color: #000000;
+    --border-color: #b3b3b3;
+    --hover-border-color: #d7cfcf;
+  }
+  
+  body {
+    min-width: 443px;
+    height: 100%;
+    /* background-color: var(--snd-bg-color) !important; */
+  }
+  
+  header {
+    background-color: var(--bg-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .logo {
+    color: var(--text-color);
+  }
+  
+  .search-box form {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    display: flex;
+  }
+  
+  .search-box form input {
+    width: 100%;
+    padding: 4px 10px 7px 10px;
+    outline: none;
+    border: 1.5px solid var(--border-color);
+    border-radius: 40px;
+    background: transparent;
+    color: var(--text-color);
+  }
+  
+  .search-box form input:hover {
+    border-color: var(--hover-border-color);
+  }
+  
+  .search-box form input::placeholder {
+    color: var(--text-color);
+  }
+  
+  .search-box form button i {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    color: var(--text-color);
+  }
+  
+  .btnNav {
+    background-color: transparent;
+    color: var(--text-color) !important;
+    border-color: var(--border-color) !important;
+  }
+  
+  .container-fluid .row div div .btnNav {
+    border-radius: 20px !important;
+    padding: 5px 15px !important;
+  }
+  
+  .btnNav:hover {
+    background-color: var(--snd-bg-color) !important;
+    color: var(--text-color) !important;
+    border-color: var(--hover-border-color) !important;
+  }
+  
+  .background-container {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(8, 8, 8, 0.5)),
+      url("./images/banner5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh; /* Ensures that the background covers at least the entire viewport */
+  }
+  
+  .homeCard {
+    width: 13.3rem;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+    margin: 20px 10px 0 10px;
+    transition: ease 0.1s;
+  }
+  
   .card-header {
-    font-size: 12px;
-    padding-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    font-weight: 700;
+    color: var(--text-color);
+    border: none;
+    outline: none;
+    padding: 0px;
   }
-
-  .homeCard {
-    width: 109px;
-  }
-
+  
   .homeCard img {
-    height: 90px;
+    width: 100%;
+    height: 120px;
+    object-position: center;
+    object-fit: contain;
+    border-radius: 20px;
+    transition: ease 0.5s;
   }
-}
-
-.customCarousel {
-  position: relative;
-  height: 280px;
-  border-radius: 8px;
-}
-
-.caraouselImg {
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.carousel-item img {
-  height: 220px;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.carousel-caption h5 {
-  padding: 8px 5px;
-  font-weight: 700;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
-}
-
-@media (min-width: 576px) {
-  .carousel-item img {
+  
+  .homeCard:hover > img {
+    transform: translateY(-5px);
+    transition: ease 0.5s;
+  }
+  
+  .homeCard:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: ease 0.1s;
+  }
+  
+  @media (max-width: 768px) {
+    .homeCard {
+      width: 139px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-header {
+      font-size: 12px;
+      padding-bottom: 5px;
+    }
+  
+    .homeCard {
+      width: 109px;
+    }
+  
+    .homeCard img {
+      height: 90px;
+    }
+  }
+  
+  .customCarousel {
+    position: relative;
     height: 280px;
+    border-radius: 8px;
   }
-}
-
-@media (min-width: 768px) {
+  
+  .caraouselImg {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
   .carousel-item img {
-    height: 350px;
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
   }
-}
+  
+  .carousel-caption h5 {
+    padding: 8px 5px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 576px) {
+    .carousel-item img {
+      height: 280px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-item img {
+      height: 350px;
+    }
+  }
+  

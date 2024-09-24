@@ -74,72 +74,72 @@ export default function Home() {
         </div> */}
         <div className="px-3 px-md-5 pt-4 pt-md-5 pb-5">
           <div className="row d-flex justify-content-center">
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Blue Sapphire</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Blue Sapphire</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/gem44.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Ruby</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Ruby</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/ruby.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Emerald</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Emerald</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/emerald.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Blue Sapphire</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Blue Sapphire</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/gem44.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Ruby</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Ruby</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/ruby.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Emerald</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Emerald</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/emerald.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Blue Sapphire</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Blue Sapphire</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/gem44.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Ruby</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Ruby</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/ruby.png"
                 alt=""
               />
             </div>
-            <div class="card text-center p-2 homeCard">
-              <div class="card-header">Emerald</div>
+            <div className="card text-center p-2 homeCard">
+              <div className="card-header">Emerald</div>
               <img
                 className="bd-placeholder-img"
                 src="/images/emerald.png"
